@@ -49,6 +49,7 @@
             this.PanelLateral = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.btnSucursales = new FontAwesome.Sharp.IconButton();
             this.btnUsuarios = new FontAwesome.Sharp.IconButton();
+            this.btnDetalleVentas = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.PanelCentral)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PanelSeparadorSuperior)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PanelSeparadorLateral)).BeginInit();
@@ -101,6 +102,7 @@
             this.btnEmpleados.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEmpleados.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnEmpleados.UseVisualStyleBackColor = false;
+            this.btnEmpleados.Click += new System.EventHandler(this.btnEmpleados_Click);
             // 
             // btnPlanillas
             // 
@@ -431,6 +433,7 @@
             // PanelLateral
             // 
             this.PanelLateral.AutoScroll = true;
+            this.PanelLateral.Controls.Add(this.btnDetalleVentas);
             this.PanelLateral.Controls.Add(this.btnUsuarios);
             this.PanelLateral.Controls.Add(this.btnSucursales);
             this.PanelLateral.Controls.Add(this.btnEmpleados);
@@ -505,6 +508,31 @@
             this.btnUsuarios.UseVisualStyleBackColor = false;
             this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
             // 
+            // btnDetalleVentas
+            // 
+            this.btnDetalleVentas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(7)))), ((int)(((byte)(85)))));
+            this.btnDetalleVentas.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDetalleVentas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDetalleVentas.FlatAppearance.BorderSize = 0;
+            this.btnDetalleVentas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(72)))), ((int)(((byte)(222)))));
+            this.btnDetalleVentas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDetalleVentas.ForeColor = System.Drawing.Color.Silver;
+            this.btnDetalleVentas.IconChar = FontAwesome.Sharp.IconChar.CartShopping;
+            this.btnDetalleVentas.IconColor = System.Drawing.Color.Silver;
+            this.btnDetalleVentas.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnDetalleVentas.IconSize = 32;
+            this.btnDetalleVentas.Location = new System.Drawing.Point(0, 849);
+            this.btnDetalleVentas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnDetalleVentas.Name = "btnDetalleVentas";
+            this.btnDetalleVentas.Size = new System.Drawing.Size(325, 56);
+            this.btnDetalleVentas.TabIndex = 19;
+            this.btnDetalleVentas.Tag = "DetalleVentas";
+            this.btnDetalleVentas.Text = "DetalleVentas";
+            this.btnDetalleVentas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDetalleVentas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnDetalleVentas.UseVisualStyleBackColor = false;
+            this.btnDetalleVentas.Click += new System.EventHandler(this.btnDetalleVentas_Click);
+            // 
             // FrmMenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -553,5 +581,6 @@
         private ComponentFactory.Krypton.Toolkit.KryptonPanel PanelLateral;
         private FontAwesome.Sharp.IconButton btnUsuarios;
         private FontAwesome.Sharp.IconButton btnSucursales;
+        private FontAwesome.Sharp.IconButton btnDetalleVentas;
     }
 }

@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CDdetalleventa.cs" />
+    <Compile Include="CDempleados.cs" />
+    <Compile Include="CDPagoPlanilla.cs" />
     <Compile Include="CDRoles.cs" />
     <Compile Include="CD_Conexion.cs" />
     <Compile Include="CD_Proveedores.cs" />

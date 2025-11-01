@@ -78,11 +78,29 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Frmdetalleventa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmdetalleventa.Designer.cs">
+      <DependentUpon>Frmdetalleventa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmempleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmempleado.Designer.cs">
+      <DependentUpon>Frmempleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmMenuPrincipal.Designer.cs">
       <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPagoPlanilla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPagoPlanilla.Designer.cs">
+      <DependentUpon>FrmPagoPlanilla.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmRoles.cs">
       <SubType>Form</SubType>
@@ -104,8 +122,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frmdetalleventa.resx">
+      <DependentUpon>Frmdetalleventa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmempleado.resx">
+      <DependentUpon>Frmempleado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMenuPrincipal.resx">
       <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPagoPlanilla.resx">
+      <DependentUpon>FrmPagoPlanilla.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRoles.resx">
       <DependentUpon>FrmRoles.cs</DependentUpon>

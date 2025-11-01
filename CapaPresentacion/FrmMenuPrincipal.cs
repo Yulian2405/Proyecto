@@ -104,5 +104,16 @@ namespace CapaPresentacion
         {
             AbrirFormulario<FrmUsuario>();
         }
+
+        private void btnEmpleados_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<Frmempleado>();
+        }
+
+        private void btnDetalleVentas_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<Frmdetalleventa>();
+        }
     }
 }
+    
