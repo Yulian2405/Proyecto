@@ -119,6 +119,7 @@ namespace CapaPresentacion
 
         private void btnPagoPlanilla_Click(object sender, EventArgs e)
         {
+
         }
 
         private void btnPlanillas_Click(object sender, EventArgs e)
@@ -154,6 +155,11 @@ namespace CapaPresentacion
         private void btnSucursales_Click(object sender, EventArgs e)
         {
             AbrirFormulario<FrmSucursales>();
+        }
+
+        private void btnInventarios_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<FrmInventarios>();
         }
     }
 }

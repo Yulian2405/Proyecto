@@ -87,6 +87,7 @@
             // 
             this.toolStrip1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.btnAgregar,
             this.toolStripSeparator5,
@@ -100,7 +101,7 @@
             this.toolStripSeparator1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(800, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1067, 27);
             this.toolStrip1.TabIndex = 12;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -113,13 +114,13 @@
             this.btnAgregar.IconSize = 90;
             this.btnAgregar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(79, 22);
+            this.btnAgregar.Size = new System.Drawing.Size(99, 24);
             this.btnAgregar.Text = "AGREGAR";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 27);
             // 
             // btnEditar
             // 
@@ -130,13 +131,13 @@
             this.btnEditar.IconSize = 90;
             this.btnEditar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(64, 22);
+            this.btnEditar.Size = new System.Drawing.Size(82, 24);
             this.btnEditar.Text = "EDITAR";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 27);
             // 
             // btnEliminar
             // 
@@ -147,13 +148,13 @@
             this.btnEliminar.IconSize = 90;
             this.btnEliminar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(80, 22);
+            this.btnEliminar.Size = new System.Drawing.Size(99, 24);
             this.btnEliminar.Text = "ELIMINAR";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 27);
             // 
             // btnLimpiar
             // 
@@ -164,13 +165,13 @@
             this.btnLimpiar.IconSize = 90;
             this.btnLimpiar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(72, 22);
+            this.btnLimpiar.Size = new System.Drawing.Size(88, 24);
             this.btnLimpiar.Text = "LIMPIAR";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 27);
             // 
             // btnCerrar
             // 
@@ -181,19 +182,20 @@
             this.btnCerrar.IconSize = 90;
             this.btnCerrar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(70, 22);
+            this.btnCerrar.Size = new System.Drawing.Size(87, 24);
             this.btnCerrar.Text = "CERRAR";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 27);
             // 
             // kryptonSplitContainer1
             // 
             this.kryptonSplitContainer1.Cursor = System.Windows.Forms.Cursors.Default;
             this.kryptonSplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.kryptonSplitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.kryptonSplitContainer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.kryptonSplitContainer1.Name = "kryptonSplitContainer1";
             // 
             // kryptonSplitContainer1.Panel1
@@ -203,8 +205,8 @@
             // kryptonSplitContainer1.Panel2
             // 
             this.kryptonSplitContainer1.Panel2.Controls.Add(this.kryptonHeaderGroup1);
-            this.kryptonSplitContainer1.Size = new System.Drawing.Size(800, 450);
-            this.kryptonSplitContainer1.SplitterDistance = 266;
+            this.kryptonSplitContainer1.Size = new System.Drawing.Size(1067, 554);
+            this.kryptonSplitContainer1.SplitterDistance = 354;
             this.kryptonSplitContainer1.TabIndex = 13;
             // 
             // kryptonHeaderGroup2
@@ -212,6 +214,7 @@
             this.kryptonHeaderGroup2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.kryptonHeaderGroup2.HeaderVisibleSecondary = false;
             this.kryptonHeaderGroup2.Location = new System.Drawing.Point(0, 0);
+            this.kryptonHeaderGroup2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.kryptonHeaderGroup2.Name = "kryptonHeaderGroup2";
             // 
             // kryptonHeaderGroup2.Panel
@@ -230,7 +233,7 @@
             this.kryptonHeaderGroup2.Panel.Controls.Add(this.kryptonLabel1);
             this.kryptonHeaderGroup2.Panel.Controls.Add(this.txtdescuentos);
             this.kryptonHeaderGroup2.Panel.Controls.Add(this.txtccodigodetalleventa);
-            this.kryptonHeaderGroup2.Size = new System.Drawing.Size(266, 450);
+            this.kryptonHeaderGroup2.Size = new System.Drawing.Size(354, 554);
             this.kryptonHeaderGroup2.StateNormal.HeaderPrimary.Content.LongText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
             this.kryptonHeaderGroup2.StateNormal.HeaderPrimary.Content.LongText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
             this.kryptonHeaderGroup2.TabIndex = 2;
@@ -245,10 +248,11 @@
             this.txtcantidad.ButtonSpecs.AddRange(new ComponentFactory.Krypton.Toolkit.ButtonSpecAny[] {
             this.buttonSpecAny1});
             this.txtcantidad.InputControlStyle = ComponentFactory.Krypton.Toolkit.InputControlStyle.Custom1;
-            this.txtcantidad.Location = new System.Drawing.Point(5, 157);
+            this.txtcantidad.Location = new System.Drawing.Point(7, 193);
+            this.txtcantidad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtcantidad.Name = "txtcantidad";
             this.txtcantidad.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Blue;
-            this.txtcantidad.Size = new System.Drawing.Size(235, 28);
+            this.txtcantidad.Size = new System.Drawing.Size(313, 31);
             this.txtcantidad.StateActive.Border.Color1 = System.Drawing.Color.LightSlateGray;
             this.txtcantidad.StateActive.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtcantidad.StateActive.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
@@ -272,9 +276,10 @@
             "Inactivo",
             "Suspendido",
             "Despedido"});
-            this.cboxestado.Location = new System.Drawing.Point(5, 396);
+            this.cboxestado.Location = new System.Drawing.Point(7, 487);
+            this.cboxestado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboxestado.Name = "cboxestado";
-            this.cboxestado.Size = new System.Drawing.Size(235, 25);
+            this.cboxestado.Size = new System.Drawing.Size(313, 29);
             this.cboxestado.StateActive.ComboBox.Border.Color1 = System.Drawing.Color.LightSlateGray;
             this.cboxestado.StateActive.ComboBox.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.cboxestado.StateActive.ComboBox.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
@@ -286,9 +291,10 @@
             // kryptonLabel6
             // 
             this.kryptonLabel6.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
-            this.kryptonLabel6.Location = new System.Drawing.Point(5, 370);
+            this.kryptonLabel6.Location = new System.Drawing.Point(7, 455);
+            this.kryptonLabel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.kryptonLabel6.Name = "kryptonLabel6";
-            this.kryptonLabel6.Size = new System.Drawing.Size(49, 20);
+            this.kryptonLabel6.Size = new System.Drawing.Size(60, 24);
             this.kryptonLabel6.TabIndex = 55;
             this.kryptonLabel6.Values.Text = "Estado";
             // 
@@ -297,10 +303,11 @@
             this.txttotal.ButtonSpecs.AddRange(new ComponentFactory.Krypton.Toolkit.ButtonSpecAny[] {
             this.buttonSpecAny3});
             this.txttotal.InputControlStyle = ComponentFactory.Krypton.Toolkit.InputControlStyle.Custom1;
-            this.txttotal.Location = new System.Drawing.Point(5, 334);
+            this.txttotal.Location = new System.Drawing.Point(7, 411);
+            this.txttotal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txttotal.Name = "txttotal";
             this.txttotal.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Blue;
-            this.txttotal.Size = new System.Drawing.Size(235, 28);
+            this.txttotal.Size = new System.Drawing.Size(313, 31);
             this.txttotal.StateActive.Border.Color1 = System.Drawing.Color.LightSlateGray;
             this.txttotal.StateActive.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txttotal.StateActive.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
@@ -324,9 +331,10 @@
             "Inactivo",
             "Suspendido",
             "Despedido"});
-            this.cboxcodigoventa.Location = new System.Drawing.Point(5, 97);
+            this.cboxcodigoventa.Location = new System.Drawing.Point(7, 119);
+            this.cboxcodigoventa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboxcodigoventa.Name = "cboxcodigoventa";
-            this.cboxcodigoventa.Size = new System.Drawing.Size(235, 25);
+            this.cboxcodigoventa.Size = new System.Drawing.Size(313, 29);
             this.cboxcodigoventa.StateActive.ComboBox.Border.Color1 = System.Drawing.Color.LightSlateGray;
             this.cboxcodigoventa.StateActive.ComboBox.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.cboxcodigoventa.StateActive.ComboBox.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
@@ -338,45 +346,50 @@
             // kryptonLabel7
             // 
             this.kryptonLabel7.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
-            this.kryptonLabel7.Location = new System.Drawing.Point(3, 308);
+            this.kryptonLabel7.Location = new System.Drawing.Point(4, 379);
+            this.kryptonLabel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.kryptonLabel7.Name = "kryptonLabel7";
-            this.kryptonLabel7.Size = new System.Drawing.Size(40, 20);
+            this.kryptonLabel7.Size = new System.Drawing.Size(49, 24);
             this.kryptonLabel7.TabIndex = 37;
             this.kryptonLabel7.Values.Text = "Total";
             // 
             // kryptonLabel2
             // 
             this.kryptonLabel2.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
-            this.kryptonLabel2.Location = new System.Drawing.Point(3, 63);
+            this.kryptonLabel2.Location = new System.Drawing.Point(4, 78);
+            this.kryptonLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.kryptonLabel2.Name = "kryptonLabel2";
-            this.kryptonLabel2.Size = new System.Drawing.Size(88, 20);
+            this.kryptonLabel2.Size = new System.Drawing.Size(108, 24);
             this.kryptonLabel2.TabIndex = 35;
             this.kryptonLabel2.Values.Text = "Codigo venta";
             // 
             // kryptonLabel3
             // 
             this.kryptonLabel3.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
-            this.kryptonLabel3.Location = new System.Drawing.Point(5, 131);
+            this.kryptonLabel3.Location = new System.Drawing.Point(7, 161);
+            this.kryptonLabel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.kryptonLabel3.Name = "kryptonLabel3";
-            this.kryptonLabel3.Size = new System.Drawing.Size(63, 20);
+            this.kryptonLabel3.Size = new System.Drawing.Size(77, 24);
             this.kryptonLabel3.TabIndex = 36;
             this.kryptonLabel3.Values.Text = "Cantidad";
             // 
             // kryptonLabel5
             // 
             this.kryptonLabel5.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
-            this.kryptonLabel5.Location = new System.Drawing.Point(3, 248);
+            this.kryptonLabel5.Location = new System.Drawing.Point(4, 305);
+            this.kryptonLabel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.kryptonLabel5.Name = "kryptonLabel5";
-            this.kryptonLabel5.Size = new System.Drawing.Size(71, 20);
+            this.kryptonLabel5.Size = new System.Drawing.Size(87, 24);
             this.kryptonLabel5.TabIndex = 43;
             this.kryptonLabel5.Values.Text = "Impuestos";
             // 
             // kryptonLabel4
             // 
             this.kryptonLabel4.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
-            this.kryptonLabel4.Location = new System.Drawing.Point(3, 188);
+            this.kryptonLabel4.Location = new System.Drawing.Point(4, 231);
+            this.kryptonLabel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.kryptonLabel4.Name = "kryptonLabel4";
-            this.kryptonLabel4.Size = new System.Drawing.Size(77, 20);
+            this.kryptonLabel4.Size = new System.Drawing.Size(95, 24);
             this.kryptonLabel4.TabIndex = 42;
             this.kryptonLabel4.Values.Text = "Descuentos";
             // 
@@ -385,10 +398,11 @@
             this.txtimpuestos.ButtonSpecs.AddRange(new ComponentFactory.Krypton.Toolkit.ButtonSpecAny[] {
             this.buttonSpecAny10});
             this.txtimpuestos.InputControlStyle = ComponentFactory.Krypton.Toolkit.InputControlStyle.Custom1;
-            this.txtimpuestos.Location = new System.Drawing.Point(3, 274);
+            this.txtimpuestos.Location = new System.Drawing.Point(4, 337);
+            this.txtimpuestos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtimpuestos.Name = "txtimpuestos";
             this.txtimpuestos.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Blue;
-            this.txtimpuestos.Size = new System.Drawing.Size(235, 28);
+            this.txtimpuestos.Size = new System.Drawing.Size(313, 31);
             this.txtimpuestos.StateActive.Border.Color1 = System.Drawing.Color.LightSlateGray;
             this.txtimpuestos.StateActive.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtimpuestos.StateActive.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
@@ -406,9 +420,10 @@
             // kryptonLabel1
             // 
             this.kryptonLabel1.LabelStyle = ComponentFactory.Krypton.Toolkit.LabelStyle.BoldControl;
-            this.kryptonLabel1.Location = new System.Drawing.Point(3, 3);
+            this.kryptonLabel1.Location = new System.Drawing.Point(4, 4);
+            this.kryptonLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.kryptonLabel1.Name = "kryptonLabel1";
-            this.kryptonLabel1.Size = new System.Drawing.Size(134, 20);
+            this.kryptonLabel1.Size = new System.Drawing.Size(166, 24);
             this.kryptonLabel1.TabIndex = 34;
             this.kryptonLabel1.Values.Text = "Codigo detallle venta";
             // 
@@ -417,10 +432,11 @@
             this.txtdescuentos.ButtonSpecs.AddRange(new ComponentFactory.Krypton.Toolkit.ButtonSpecAny[] {
             this.buttonSpecAny9});
             this.txtdescuentos.InputControlStyle = ComponentFactory.Krypton.Toolkit.InputControlStyle.Custom1;
-            this.txtdescuentos.Location = new System.Drawing.Point(3, 214);
+            this.txtdescuentos.Location = new System.Drawing.Point(4, 263);
+            this.txtdescuentos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtdescuentos.Name = "txtdescuentos";
             this.txtdescuentos.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2007Blue;
-            this.txtdescuentos.Size = new System.Drawing.Size(235, 28);
+            this.txtdescuentos.Size = new System.Drawing.Size(313, 31);
             this.txtdescuentos.StateActive.Border.Color1 = System.Drawing.Color.LightSlateGray;
             this.txtdescuentos.StateActive.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtdescuentos.StateActive.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
@@ -440,11 +456,12 @@
             this.txtccodigodetalleventa.ButtonSpecs.AddRange(new ComponentFactory.Krypton.Toolkit.ButtonSpecAny[] {
             this.buttonSpecAny5});
             this.txtccodigodetalleventa.InputControlStyle = ComponentFactory.Krypton.Toolkit.InputControlStyle.Custom1;
-            this.txtccodigodetalleventa.Location = new System.Drawing.Point(2, 25);
+            this.txtccodigodetalleventa.Location = new System.Drawing.Point(3, 31);
+            this.txtccodigodetalleventa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtccodigodetalleventa.Name = "txtccodigodetalleventa";
             this.txtccodigodetalleventa.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.SparkleBlue;
             this.txtccodigodetalleventa.ReadOnly = true;
-            this.txtccodigodetalleventa.Size = new System.Drawing.Size(235, 32);
+            this.txtccodigodetalleventa.Size = new System.Drawing.Size(313, 32);
             this.txtccodigodetalleventa.StateActive.Border.Color1 = System.Drawing.Color.LightSlateGray;
             this.txtccodigodetalleventa.StateActive.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtccodigodetalleventa.StateActive.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
@@ -469,13 +486,14 @@
             // 
             // kryptonHeaderGroup1
             // 
-            this.kryptonHeaderGroup1.Location = new System.Drawing.Point(3, 28);
+            this.kryptonHeaderGroup1.Location = new System.Drawing.Point(4, 34);
+            this.kryptonHeaderGroup1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.kryptonHeaderGroup1.Name = "kryptonHeaderGroup1";
             // 
             // kryptonHeaderGroup1.Panel
             // 
             this.kryptonHeaderGroup1.Panel.Controls.Add(this.dvgdetalleventa);
-            this.kryptonHeaderGroup1.Size = new System.Drawing.Size(514, 382);
+            this.kryptonHeaderGroup1.Size = new System.Drawing.Size(685, 470);
             this.kryptonHeaderGroup1.StateNormal.HeaderPrimary.Content.LongText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
             this.kryptonHeaderGroup1.StateNormal.HeaderPrimary.Content.LongText.TextV = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
             this.kryptonHeaderGroup1.TabIndex = 0;
@@ -491,21 +509,25 @@
             this.dvgdetalleventa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dvgdetalleventa.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dvgdetalleventa.Location = new System.Drawing.Point(0, 0);
+            this.dvgdetalleventa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dvgdetalleventa.Name = "dvgdetalleventa";
             this.dvgdetalleventa.ReadOnly = true;
+            this.dvgdetalleventa.RowHeadersWidth = 51;
             this.dvgdetalleventa.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dvgdetalleventa.Size = new System.Drawing.Size(512, 329);
+            this.dvgdetalleventa.Size = new System.Drawing.Size(683, 407);
             this.dvgdetalleventa.TabIndex = 0;
             // 
             // Frmdetalleventa
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.kryptonSplitContainer1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Frmdetalleventa";
             this.Text = "Frmdetalleventa";
+            this.Load += new System.EventHandler(this.Frmdetalleventa_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonSplitContainer1.Panel1)).EndInit();

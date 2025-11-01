@@ -50,6 +50,7 @@
     <Compile Include="CDRoles.cs" />
     <Compile Include="CD_Conexion.cs" />
     <Compile Include="CD_Empleados.cs" />
+    <Compile Include="CD_Inventarios.cs" />
     <Compile Include="CD_Planillas.cs" />
     <Compile Include="CD_Proveedores.cs" />
     <Compile Include="CD_Roles.cs" />
