@@ -1,4 +1,5 @@
 ﻿using ComponentFactory.Krypton.Toolkit;
+using ProyectoMiguel;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -88,6 +89,11 @@ namespace CapaPresentacion
             {
                 formulario.BringToFront();
             }
+        }
+
+        private void btnVentas_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<FrmVentas>();
         }
     }
 }
