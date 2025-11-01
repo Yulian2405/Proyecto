@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="CLempleados.cs" />
     <Compile Include="CLPagoPlanilla.cs" />
+    <Compile Include="CL_Compras.cs" />
     <Compile Include="CL_Proveedores.cs" />
     <Compile Include="CL_Sucursales.cs" />
     <Compile Include="CL_Usuarios.cs" />

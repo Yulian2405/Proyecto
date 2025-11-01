@@ -78,6 +78,18 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmClientes.Designer.cs">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCompras.Designer.cs">
+      <DependentUpon>FrmCompras.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frmdetalleventa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,17 +102,35 @@
     <Compile Include="Frmempleado.Designer.cs">
       <DependentUpon>Frmempleado.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmEnvios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEnvios.Designer.cs">
+      <DependentUpon>FrmEnvios.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmMenuPrincipal.Designer.cs">
       <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmPagoClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPagoClientes.Designer.cs">
+      <DependentUpon>FrmPagoClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPagoPlanilla.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmPagoPlanilla.Designer.cs">
       <DependentUpon>FrmPagoPlanilla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPagosProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPagosProveedores.Designer.cs">
+      <DependentUpon>FrmPagosProveedores.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmRoles.cs">
       <SubType>Form</SubType>
@@ -122,17 +152,32 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmClientes.resx">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCompras.resx">
+      <DependentUpon>FrmCompras.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frmdetalleventa.resx">
       <DependentUpon>Frmdetalleventa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frmempleado.resx">
       <DependentUpon>Frmempleado.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmEnvios.resx">
+      <DependentUpon>FrmEnvios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMenuPrincipal.resx">
       <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmPagoClientes.resx">
+      <DependentUpon>FrmPagoClientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmPagoPlanilla.resx">
       <DependentUpon>FrmPagoPlanilla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPagosProveedores.resx">
+      <DependentUpon>FrmPagosProveedores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRoles.resx">
       <DependentUpon>FrmRoles.cs</DependentUpon>

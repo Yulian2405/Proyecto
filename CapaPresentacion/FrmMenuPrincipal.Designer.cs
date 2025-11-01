@@ -32,12 +32,12 @@
             this.PanelSeparadorSuperior = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.btnEmpleados = new FontAwesome.Sharp.IconButton();
             this.btnPlanillas = new FontAwesome.Sharp.IconButton();
-            this.btnPagos = new FontAwesome.Sharp.IconButton();
-            this.btnFacturacion = new FontAwesome.Sharp.IconButton();
+            this.btnPagosProveedores = new FontAwesome.Sharp.IconButton();
+            this.btnEnvios = new FontAwesome.Sharp.IconButton();
             this.btnVentas = new FontAwesome.Sharp.IconButton();
             this.btnCompras = new FontAwesome.Sharp.IconButton();
             this.btnInventarios = new FontAwesome.Sharp.IconButton();
-            this.btnServicios = new FontAwesome.Sharp.IconButton();
+            this.btnClientes = new FontAwesome.Sharp.IconButton();
             this.btnSalir = new FontAwesome.Sharp.IconButton();
             this.btnPagoPlanilla = new FontAwesome.Sharp.IconButton();
             this.btnProveedores = new FontAwesome.Sharp.IconButton();
@@ -49,6 +49,7 @@
             this.btnDetalleVentas = new FontAwesome.Sharp.IconButton();
             this.btnUsuarios = new FontAwesome.Sharp.IconButton();
             this.btnSucursales = new FontAwesome.Sharp.IconButton();
+            this.btnPagosClientes = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.PanelCentral)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PanelSeparadorSuperior)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PanelSeparadorLateral)).BeginInit();
@@ -128,53 +129,55 @@
             this.btnPlanillas.UseVisualStyleBackColor = false;
             this.btnPlanillas.Click += new System.EventHandler(this.btnPlanillas_Click);
             // 
-            // btnPagos
+            // btnPagosProveedores
             // 
-            this.btnPagos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(7)))), ((int)(((byte)(85)))));
-            this.btnPagos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPagos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPagos.FlatAppearance.BorderSize = 0;
-            this.btnPagos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(72)))), ((int)(((byte)(222)))));
-            this.btnPagos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPagos.ForeColor = System.Drawing.Color.Silver;
-            this.btnPagos.IconChar = FontAwesome.Sharp.IconChar.SackDollar;
-            this.btnPagos.IconColor = System.Drawing.Color.Silver;
-            this.btnPagos.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnPagos.IconSize = 32;
-            this.btnPagos.Location = new System.Drawing.Point(0, 511);
-            this.btnPagos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnPagos.Name = "btnPagos";
-            this.btnPagos.Size = new System.Drawing.Size(325, 56);
-            this.btnPagos.TabIndex = 14;
-            this.btnPagos.Tag = "Pagos";
-            this.btnPagos.Text = "Pagos";
-            this.btnPagos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPagos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnPagos.UseVisualStyleBackColor = false;
+            this.btnPagosProveedores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(7)))), ((int)(((byte)(85)))));
+            this.btnPagosProveedores.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPagosProveedores.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPagosProveedores.FlatAppearance.BorderSize = 0;
+            this.btnPagosProveedores.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(72)))), ((int)(((byte)(222)))));
+            this.btnPagosProveedores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPagosProveedores.ForeColor = System.Drawing.Color.Silver;
+            this.btnPagosProveedores.IconChar = FontAwesome.Sharp.IconChar.SackDollar;
+            this.btnPagosProveedores.IconColor = System.Drawing.Color.Silver;
+            this.btnPagosProveedores.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnPagosProveedores.IconSize = 32;
+            this.btnPagosProveedores.Location = new System.Drawing.Point(0, 511);
+            this.btnPagosProveedores.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnPagosProveedores.Name = "btnPagosProveedores";
+            this.btnPagosProveedores.Size = new System.Drawing.Size(325, 56);
+            this.btnPagosProveedores.TabIndex = 14;
+            this.btnPagosProveedores.Tag = "PagosProveedores";
+            this.btnPagosProveedores.Text = "PagosProveedores";
+            this.btnPagosProveedores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPagosProveedores.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnPagosProveedores.UseVisualStyleBackColor = false;
+            this.btnPagosProveedores.Click += new System.EventHandler(this.btnPagosProveedores_Click);
             // 
-            // btnFacturacion
+            // btnEnvios
             // 
-            this.btnFacturacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(7)))), ((int)(((byte)(85)))));
-            this.btnFacturacion.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnFacturacion.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnFacturacion.FlatAppearance.BorderSize = 0;
-            this.btnFacturacion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(72)))), ((int)(((byte)(222)))));
-            this.btnFacturacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFacturacion.ForeColor = System.Drawing.Color.Silver;
-            this.btnFacturacion.IconChar = FontAwesome.Sharp.IconChar.FileInvoiceDollar;
-            this.btnFacturacion.IconColor = System.Drawing.Color.Silver;
-            this.btnFacturacion.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnFacturacion.IconSize = 32;
-            this.btnFacturacion.Location = new System.Drawing.Point(0, 455);
-            this.btnFacturacion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnFacturacion.Name = "btnFacturacion";
-            this.btnFacturacion.Size = new System.Drawing.Size(325, 56);
-            this.btnFacturacion.TabIndex = 13;
-            this.btnFacturacion.Tag = "Facturacion";
-            this.btnFacturacion.Text = "Facturacion";
-            this.btnFacturacion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFacturacion.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnFacturacion.UseVisualStyleBackColor = false;
+            this.btnEnvios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(7)))), ((int)(((byte)(85)))));
+            this.btnEnvios.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEnvios.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnEnvios.FlatAppearance.BorderSize = 0;
+            this.btnEnvios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(72)))), ((int)(((byte)(222)))));
+            this.btnEnvios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEnvios.ForeColor = System.Drawing.Color.Silver;
+            this.btnEnvios.IconChar = FontAwesome.Sharp.IconChar.FileInvoiceDollar;
+            this.btnEnvios.IconColor = System.Drawing.Color.Silver;
+            this.btnEnvios.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnEnvios.IconSize = 32;
+            this.btnEnvios.Location = new System.Drawing.Point(0, 455);
+            this.btnEnvios.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnEnvios.Name = "btnEnvios";
+            this.btnEnvios.Size = new System.Drawing.Size(325, 56);
+            this.btnEnvios.TabIndex = 13;
+            this.btnEnvios.Tag = "Envios";
+            this.btnEnvios.Text = "Envios";
+            this.btnEnvios.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEnvios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnEnvios.UseVisualStyleBackColor = false;
+            this.btnEnvios.Click += new System.EventHandler(this.btnEnvios_Click);
             // 
             // btnVentas
             // 
@@ -224,6 +227,7 @@
             this.btnCompras.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCompras.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCompras.UseVisualStyleBackColor = false;
+            this.btnCompras.Click += new System.EventHandler(this.btnCompras_Click);
             // 
             // btnInventarios
             // 
@@ -249,29 +253,30 @@
             this.btnInventarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnInventarios.UseVisualStyleBackColor = false;
             // 
-            // btnServicios
+            // btnClientes
             // 
-            this.btnServicios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(7)))), ((int)(((byte)(85)))));
-            this.btnServicios.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnServicios.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnServicios.FlatAppearance.BorderSize = 0;
-            this.btnServicios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(72)))), ((int)(((byte)(222)))));
-            this.btnServicios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnServicios.ForeColor = System.Drawing.Color.Silver;
-            this.btnServicios.IconChar = FontAwesome.Sharp.IconChar.LaptopFile;
-            this.btnServicios.IconColor = System.Drawing.Color.Silver;
-            this.btnServicios.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnServicios.IconSize = 32;
-            this.btnServicios.Location = new System.Drawing.Point(0, 235);
-            this.btnServicios.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnServicios.Name = "btnServicios";
-            this.btnServicios.Size = new System.Drawing.Size(325, 56);
-            this.btnServicios.TabIndex = 8;
-            this.btnServicios.Tag = "Servicios";
-            this.btnServicios.Text = "Servicios";
-            this.btnServicios.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnServicios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnServicios.UseVisualStyleBackColor = false;
+            this.btnClientes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(7)))), ((int)(((byte)(85)))));
+            this.btnClientes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClientes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnClientes.FlatAppearance.BorderSize = 0;
+            this.btnClientes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(72)))), ((int)(((byte)(222)))));
+            this.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClientes.ForeColor = System.Drawing.Color.Silver;
+            this.btnClientes.IconChar = FontAwesome.Sharp.IconChar.PeopleLine;
+            this.btnClientes.IconColor = System.Drawing.Color.Silver;
+            this.btnClientes.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnClientes.IconSize = 32;
+            this.btnClientes.Location = new System.Drawing.Point(0, 235);
+            this.btnClientes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnClientes.Name = "btnClientes";
+            this.btnClientes.Size = new System.Drawing.Size(325, 56);
+            this.btnClientes.TabIndex = 8;
+            this.btnClientes.Tag = "Clientes";
+            this.btnClientes.Text = "Clientes";
+            this.btnClientes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnClientes.UseVisualStyleBackColor = false;
+            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click_1);
             // 
             // btnSalir
             // 
@@ -410,17 +415,18 @@
             // PanelLateral
             // 
             this.PanelLateral.AutoScroll = true;
+            this.PanelLateral.Controls.Add(this.btnPagosClientes);
             this.PanelLateral.Controls.Add(this.btnDetalleVentas);
             this.PanelLateral.Controls.Add(this.btnUsuarios);
             this.PanelLateral.Controls.Add(this.btnSucursales);
             this.PanelLateral.Controls.Add(this.btnEmpleados);
             this.PanelLateral.Controls.Add(this.btnPlanillas);
-            this.PanelLateral.Controls.Add(this.btnPagos);
-            this.PanelLateral.Controls.Add(this.btnFacturacion);
+            this.PanelLateral.Controls.Add(this.btnPagosProveedores);
+            this.PanelLateral.Controls.Add(this.btnEnvios);
             this.PanelLateral.Controls.Add(this.btnVentas);
             this.PanelLateral.Controls.Add(this.btnCompras);
             this.PanelLateral.Controls.Add(this.btnInventarios);
-            this.PanelLateral.Controls.Add(this.btnServicios);
+            this.PanelLateral.Controls.Add(this.btnClientes);
             this.PanelLateral.Controls.Add(this.btnSalir);
             this.PanelLateral.Controls.Add(this.btnPagoPlanilla);
             this.PanelLateral.Controls.Add(this.btnProveedores);
@@ -509,6 +515,31 @@
             this.btnSucursales.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSucursales.UseVisualStyleBackColor = false;
             // 
+            // btnPagosClientes
+            // 
+            this.btnPagosClientes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(7)))), ((int)(((byte)(85)))));
+            this.btnPagosClientes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPagosClientes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPagosClientes.FlatAppearance.BorderSize = 0;
+            this.btnPagosClientes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(72)))), ((int)(((byte)(222)))));
+            this.btnPagosClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPagosClientes.ForeColor = System.Drawing.Color.Silver;
+            this.btnPagosClientes.IconChar = FontAwesome.Sharp.IconChar.SackDollar;
+            this.btnPagosClientes.IconColor = System.Drawing.Color.Silver;
+            this.btnPagosClientes.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnPagosClientes.IconSize = 32;
+            this.btnPagosClientes.Location = new System.Drawing.Point(0, 853);
+            this.btnPagosClientes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnPagosClientes.Name = "btnPagosClientes";
+            this.btnPagosClientes.Size = new System.Drawing.Size(325, 56);
+            this.btnPagosClientes.TabIndex = 20;
+            this.btnPagosClientes.Tag = "PagosClientes";
+            this.btnPagosClientes.Text = "PagosClientes";
+            this.btnPagosClientes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPagosClientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnPagosClientes.UseVisualStyleBackColor = false;
+            this.btnPagosClientes.Click += new System.EventHandler(this.btnPagosClientes_Click);
+            // 
             // FrmMenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -540,12 +571,12 @@
         private ComponentFactory.Krypton.Toolkit.KryptonPanel PanelSeparadorSuperior;
         private FontAwesome.Sharp.IconButton btnEmpleados;
         private FontAwesome.Sharp.IconButton btnPlanillas;
-        private FontAwesome.Sharp.IconButton btnPagos;
-        private FontAwesome.Sharp.IconButton btnFacturacion;
+        private FontAwesome.Sharp.IconButton btnPagosProveedores;
+        private FontAwesome.Sharp.IconButton btnEnvios;
         private FontAwesome.Sharp.IconButton btnVentas;
         private FontAwesome.Sharp.IconButton btnCompras;
         private FontAwesome.Sharp.IconButton btnInventarios;
-        private FontAwesome.Sharp.IconButton btnServicios;
+        private FontAwesome.Sharp.IconButton btnClientes;
         private FontAwesome.Sharp.IconButton btnSalir;
         private FontAwesome.Sharp.IconButton btnPagoPlanilla;
         private FontAwesome.Sharp.IconButton btnProveedores;
@@ -557,5 +588,6 @@
         private FontAwesome.Sharp.IconButton btnUsuarios;
         private FontAwesome.Sharp.IconButton btnSucursales;
         private FontAwesome.Sharp.IconButton btnDetalleVentas;
+        private FontAwesome.Sharp.IconButton btnPagosClientes;
     }
 }
