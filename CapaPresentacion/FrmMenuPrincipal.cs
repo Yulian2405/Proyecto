@@ -98,6 +98,7 @@ namespace CapaPresentacion
 
         private void btnProveedores_Click(object sender, EventArgs e)
         {
+            AbrirFormulario<FrmProveedores>();
         }
 
         private void btnUsuarios_Click(object sender, EventArgs e)
@@ -148,6 +149,11 @@ namespace CapaPresentacion
         private void btnPagosClientes_Click(object sender, EventArgs e)
         {
             AbrirFormulario<FrmPagoClientes>();
+        }
+
+        private void btnSucursales_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<FrmSucursales>();
         }
     }
 }

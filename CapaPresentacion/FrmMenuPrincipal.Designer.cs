@@ -514,6 +514,7 @@
             this.btnSucursales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSucursales.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSucursales.UseVisualStyleBackColor = false;
+            this.btnSucursales.Click += new System.EventHandler(this.btnSucursales_Click);
             // 
             // btnPagosClientes
             // 

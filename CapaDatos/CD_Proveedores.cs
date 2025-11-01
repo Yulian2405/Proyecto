@@ -22,11 +22,11 @@ namespace CapaDatos
             return dt;
         }
 
-        public void MtdAgregarProveedores(string NombreProveedor, int Telefono, string Correo, double Direccion, string Estado)
+        public void MtdAgregarProveedores(string NombreProveedor, int Telefono, string Correo, string Direccion, string Estado)
         {
-            string QueryAgregar = "Insert into tbl_proveedores ( NombreProveedor, Telefono, Correo, Direccion, Estado) values ( @NombreProveedor, @Telefono, @Correo, @Direccion, @Estado);";
+            string QueryAgregar = "Insert into tbl_proveedores ( Nombre, Telefono, Correo, Direccion, Estado) values ( @Nombre, @Telefono, @Correo, @Direccion, @Estado);";
             SqlCommand Sqlcmd = new SqlCommand(QueryAgregar, conn.MtdAbrirConexion());
-            Sqlcmd.Parameters.AddWithValue("@NombreProveedor", NombreProveedor);
+            Sqlcmd.Parameters.AddWithValue("@Nombre", NombreProveedor);
             Sqlcmd.Parameters.AddWithValue("@Telefono", Telefono);
             Sqlcmd.Parameters.AddWithValue("@Correo", Correo);
             Sqlcmd.Parameters.AddWithValue("@Direccion", Direccion);
@@ -35,9 +35,9 @@ namespace CapaDatos
             conn.MtdCerrarConexion();
         }
 
-        public void MtdEditarProveedores(int CodigoProveedor, string NombreProveedor, int Telefono, string Correo, double Direccion, string Estado)
+        public void MtdEditarProveedores(int CodigoProveedor, string NombreProveedor, int Telefono, string Correo, string Direccion, string Estado)
         {
-            string QueryAgregar = "Update tbl_proveedores set NombreProveedor=@NombreProveedor, Telefono=@Telefono, Correo=@Correo, Direccion=@Direccion, Estado=@Estado Where CodigoProveedor=@CodigoProveedor";
+            string QueryAgregar = "Update tbl_proveedores set Nombre=@Nombre, Telefono=@Telefono, Correo=@Correo, Direccion=@Direccion, Estado=@Estado Where CodigoProveedor=@CodigoProveedor";
             SqlCommand Sqlcmd = new SqlCommand(QueryAgregar, conn.MtdAbrirConexion());
             Sqlcmd.Parameters.AddWithValue("@CodigoProveedor", CodigoProveedor);
             Sqlcmd.Parameters.AddWithValue("@NombreProveedor", NombreProveedor);
