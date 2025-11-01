@@ -47,6 +47,8 @@
             this.PanelLogo = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.PanelSuperior = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
             this.PanelLateral = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
+            this.btnSucursales = new FontAwesome.Sharp.IconButton();
+            this.btnUsuarios = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.PanelCentral)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PanelSeparadorSuperior)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PanelSeparadorLateral)).BeginInit();
@@ -365,6 +367,7 @@
             this.btnProveedores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProveedores.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnProveedores.UseVisualStyleBackColor = false;
+            this.btnProveedores.Click += new System.EventHandler(this.btnProveedores_Click);
             // 
             // btnRoles
             // 
@@ -428,6 +431,8 @@
             // PanelLateral
             // 
             this.PanelLateral.AutoScroll = true;
+            this.PanelLateral.Controls.Add(this.btnUsuarios);
+            this.PanelLateral.Controls.Add(this.btnSucursales);
             this.PanelLateral.Controls.Add(this.btnEmpleados);
             this.PanelLateral.Controls.Add(this.btnPlanillas);
             this.PanelLateral.Controls.Add(this.btnPagos);
@@ -450,6 +455,55 @@
             this.PanelLateral.Size = new System.Drawing.Size(325, 1102);
             this.PanelLateral.StateCommon.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(7)))), ((int)(((byte)(85)))));
             this.PanelLateral.TabIndex = 5;
+            // 
+            // btnSucursales
+            // 
+            this.btnSucursales.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(7)))), ((int)(((byte)(85)))));
+            this.btnSucursales.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSucursales.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSucursales.FlatAppearance.BorderSize = 0;
+            this.btnSucursales.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(72)))), ((int)(((byte)(222)))));
+            this.btnSucursales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSucursales.ForeColor = System.Drawing.Color.Silver;
+            this.btnSucursales.IconChar = FontAwesome.Sharp.IconChar.CartShopping;
+            this.btnSucursales.IconColor = System.Drawing.Color.Silver;
+            this.btnSucursales.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnSucursales.IconSize = 32;
+            this.btnSucursales.Location = new System.Drawing.Point(0, 737);
+            this.btnSucursales.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSucursales.Name = "btnSucursales";
+            this.btnSucursales.Size = new System.Drawing.Size(325, 56);
+            this.btnSucursales.TabIndex = 17;
+            this.btnSucursales.Tag = "Sucursales";
+            this.btnSucursales.Text = "Sucursales";
+            this.btnSucursales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSucursales.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSucursales.UseVisualStyleBackColor = false;
+            // 
+            // btnUsuarios
+            // 
+            this.btnUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(7)))), ((int)(((byte)(85)))));
+            this.btnUsuarios.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnUsuarios.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnUsuarios.FlatAppearance.BorderSize = 0;
+            this.btnUsuarios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(72)))), ((int)(((byte)(222)))));
+            this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUsuarios.ForeColor = System.Drawing.Color.Silver;
+            this.btnUsuarios.IconChar = FontAwesome.Sharp.IconChar.Users;
+            this.btnUsuarios.IconColor = System.Drawing.Color.Silver;
+            this.btnUsuarios.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnUsuarios.IconSize = 32;
+            this.btnUsuarios.Location = new System.Drawing.Point(0, 793);
+            this.btnUsuarios.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnUsuarios.Name = "btnUsuarios";
+            this.btnUsuarios.Size = new System.Drawing.Size(325, 56);
+            this.btnUsuarios.TabIndex = 18;
+            this.btnUsuarios.Tag = "Usuarios";
+            this.btnUsuarios.Text = "Usuarios";
+            this.btnUsuarios.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnUsuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnUsuarios.UseVisualStyleBackColor = false;
+            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
             // 
             // FrmMenuPrincipal
             // 
@@ -497,5 +551,7 @@
         private ComponentFactory.Krypton.Toolkit.KryptonPanel PanelLogo;
         private ComponentFactory.Krypton.Toolkit.KryptonPanel PanelSuperior;
         private ComponentFactory.Krypton.Toolkit.KryptonPanel PanelLateral;
+        private FontAwesome.Sharp.IconButton btnUsuarios;
+        private FontAwesome.Sharp.IconButton btnSucursales;
     }
 }

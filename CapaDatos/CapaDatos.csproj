@@ -43,7 +43,10 @@
   <ItemGroup>
     <Compile Include="CDRoles.cs" />
     <Compile Include="CD_Conexion.cs" />
+    <Compile Include="CD_Proveedores.cs" />
     <Compile Include="CD_Roles.cs" />
+    <Compile Include="CD_Sucursales.cs" />
+    <Compile Include="CD_Usuarios.cs" />
     <Compile Include="CD_Ventas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
