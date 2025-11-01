@@ -49,6 +49,7 @@
             this.btnDetalleVentas = new FontAwesome.Sharp.IconButton();
             this.btnUsuarios = new FontAwesome.Sharp.IconButton();
             this.btnSucursales = new FontAwesome.Sharp.IconButton();
+            this.btnProductos = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.PanelCentral)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PanelSeparadorSuperior)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PanelSeparadorLateral)).BeginInit();
@@ -390,6 +391,7 @@
             // PanelLateral
             // 
             this.PanelLateral.AutoScroll = true;
+            this.PanelLateral.Controls.Add(this.btnProductos);
             this.PanelLateral.Controls.Add(this.btnPagosClientes);
             this.PanelLateral.Controls.Add(this.btnDetalleVentas);
             this.PanelLateral.Controls.Add(this.btnUsuarios);
@@ -515,6 +517,31 @@
             this.btnSucursales.UseVisualStyleBackColor = false;
             this.btnSucursales.Click += new System.EventHandler(this.btnSucursales_Click);
             // 
+            // btnProductos
+            // 
+            this.btnProductos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(7)))), ((int)(((byte)(85)))));
+            this.btnProductos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnProductos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnProductos.FlatAppearance.BorderSize = 0;
+            this.btnProductos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(72)))), ((int)(((byte)(222)))));
+            this.btnProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProductos.ForeColor = System.Drawing.Color.Silver;
+            this.btnProductos.IconChar = FontAwesome.Sharp.IconChar.HouseLaptop;
+            this.btnProductos.IconColor = System.Drawing.Color.Silver;
+            this.btnProductos.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnProductos.IconSize = 32;
+            this.btnProductos.Location = new System.Drawing.Point(0, 857);
+            this.btnProductos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnProductos.Name = "btnProductos";
+            this.btnProductos.Size = new System.Drawing.Size(325, 52);
+            this.btnProductos.TabIndex = 21;
+            this.btnProductos.Tag = "Productos";
+            this.btnProductos.Text = "Productos";
+            this.btnProductos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProductos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnProductos.UseVisualStyleBackColor = false;
+            this.btnProductos.Click += new System.EventHandler(this.btnProductos_Click);
+            // 
             // FrmMenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -563,5 +590,6 @@
         private FontAwesome.Sharp.IconButton btnSucursales;
         private FontAwesome.Sharp.IconButton btnDetalleVentas;
         private FontAwesome.Sharp.IconButton btnPagosClientes;
+        private FontAwesome.Sharp.IconButton btnProductos;
     }
 }
