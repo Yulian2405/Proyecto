@@ -1,5 +1,6 @@
 ﻿using ComponentFactory.Krypton.Toolkit;
 using ProyectoMiguel;
+using ProyectoUMGDarien;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -108,7 +109,7 @@ namespace CapaPresentacion
 
         private void btnEmpleados_Click(object sender, EventArgs e)
         {
-            AbrirFormulario<Frmempleado>();
+            AbrirFormulario<FrmEmpleados>();
         }
 
         private void btnDetalleVentas_Click(object sender, EventArgs e)
@@ -118,12 +119,11 @@ namespace CapaPresentacion
 
         private void btnPagoPlanilla_Click(object sender, EventArgs e)
         {
-            AbrirFormulario<FrmPagoPlanilla>();
         }
 
         private void btnPlanillas_Click(object sender, EventArgs e)
         {
-            AbrirFormulario<FrmPagoPlanilla>();
+            AbrirFormulario<FrmPlanillas>();
         }
 
         private void btnClientes_Click_1(object sender, EventArgs e)
