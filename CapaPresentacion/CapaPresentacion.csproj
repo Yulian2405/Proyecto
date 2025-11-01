@@ -96,12 +96,6 @@
     <Compile Include="Frmdetalleventa.Designer.cs">
       <DependentUpon>Frmdetalleventa.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frmempleado.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frmempleado.Designer.cs">
-      <DependentUpon>Frmempleado.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmEnvios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,12 +113,6 @@
     </Compile>
     <Compile Include="FrmPagoClientes.Designer.cs">
       <DependentUpon>FrmPagoClientes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmPagoPlanilla.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmPagoPlanilla.Designer.cs">
-      <DependentUpon>FrmPagoPlanilla.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmPagosProveedores.cs">
       <SubType>Form</SubType>
@@ -173,9 +161,6 @@
     <EmbeddedResource Include="Frmdetalleventa.resx">
       <DependentUpon>Frmdetalleventa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frmempleado.resx">
-      <DependentUpon>Frmempleado.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FrmEnvios.resx">
       <DependentUpon>FrmEnvios.cs</DependentUpon>
     </EmbeddedResource>
@@ -184,9 +169,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPagoClientes.resx">
       <DependentUpon>FrmPagoClientes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmPagoPlanilla.resx">
-      <DependentUpon>FrmPagoPlanilla.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPagosProveedores.resx">
       <DependentUpon>FrmPagosProveedores.cs</DependentUpon>
