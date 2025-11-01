@@ -114,6 +114,16 @@ namespace CapaPresentacion
         {
             AbrirFormulario<Frmdetalleventa>();
         }
+
+        private void btnPagoPlanilla_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<FrmPagoPlanilla>();
+        }
+
+        private void btnPlanillas_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<FrmPagoPlanilla>();
+        }
     }
 }
     
